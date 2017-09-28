@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:paddingLeft="17dp"
+        android:text="@string/tour_hour"
+        android:textColor="@color/maincolor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <!--주요시설 표-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="10pt">
+        <!--1열(시설명)-->
+        <TextView
+            android:width="0px"
+            android:height="45dp"
+            android:background="@drawable/celltitle"
+            android:gravity="center"
+            android:text="@string/ssamzie_hours"
+            android:textColor="@color/tablecolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:width="0px"
+            android:height="45dp"
+            android:background="@drawable/cellbg"
+            android:gravity="center"
+            android:text="@string/ssamzie_everyday"
+            android:textColor="@color/tablecolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:width="0px"
+            android:height="45dp"
+            android:background="@drawable/cellbg"
+            android:gravity="center"
+            android:text="@string/ssamzie_closed"
+            android:textColor="@color/tablecolor"
+            android:textSize="16sp" />
+
+
+    </TableLayout>
+</LinearLayout>

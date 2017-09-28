@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:fillViewport="false"
+        android:visibility="visible">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:paddingLeft="17dp"
+                android:text="@string/tour_hour"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/maincolor" />
+
+            <!--주요시설 표-->
+
+
+            <!--케이블카-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="50dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="10pt">
+
+                <!--1열(시설명)-->
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/nampark_facility" />
+
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_gravity="center"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/nampark_cablecar" />
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_type" />
+
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4.5"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_oneway" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4.5"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_roundtrip" />
+                </TableRow>
+
+                <!--비고-->
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="90dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/gyeong_bigo" />
+
+                    <TableLayout android:layout_weight="9">
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:layout_weight="9"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_hours" />
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:layout_weight="9"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="10:00~23:00" />
+
+
+                    </TableLayout>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

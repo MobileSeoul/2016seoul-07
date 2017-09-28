@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:fillViewport="false"
+        android:visibility="visible">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:paddingLeft="17dp"
+                android:text="@string/tour_hour"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/maincolor"/>
+
+            <!--주요시설 표-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="50dp"
+                >
+
+
+                <!--1열(시설명)-->
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/mbc_session" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/mbc_starthour" />
+
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_1" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="10:00" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_2" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="10:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_3" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="11:00" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_4" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="11:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_5" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="12:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_6" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="13:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_7" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="14:00" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_8" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="14:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_9" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="15:00" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_10" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="15:30" />
+                </TableRow>
+                <TableRow android:weightSum="15">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_11" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="16:00" />
+                </TableRow>
+
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/celltitle"
+                    android:gravity="center"
+                    android:text="@string/gyeong_bigo" />
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_top"
+                    android:gravity="center_vertical"
+                    android:text="@string/mbc_bigo1" />
+                <TextView
+                    android:paddingLeft="25dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_btm"
+                    android:gravity="top"
+                    android:text="@string/mbc_bigo2" />
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:text="@string/mbc_bigo3" />
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:text="@string/mbc_bigo4" />
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

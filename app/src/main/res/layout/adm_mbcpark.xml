@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:fillViewport="false"
+        android:visibility="visible">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:paddingLeft="17dp"
+                android:text="@string/tour_adm"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/maincolor"/>
+
+            <!--주요시설 표-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="50dp"
+                >
+
+                <!--1열(시설명)-->
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/mbc_admission" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/mbc_individual" />
+
+
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/tour_adult" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/mbc_18000" />
+
+
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/tour_youth" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:textColor="@color/tablecolor"
+                        android:text="@string/mbc_13000" />
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/tour_children" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:textColor="@color/tablecolor"
+                        android:text="@string/mbc_9000" />
+                </TableRow>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/celltitle"
+                    android:gravity="center"
+                    android:text="@string/gyeong_bigo" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/mbc_child" />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/mbc_youth" />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/celltitle"
+                    android:gravity="center"
+                    android:text="@string/mbc_discounts" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/mbc_discounts1" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/mbc_discounts2" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="9"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/mbc_discounts3" />
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:fillViewport="false"
+        android:visibility="visible">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:paddingLeft="17dp"
+                android:text="@string/tour_adm"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/maincolor"/>
+            <!--관람요금 안내-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="50dp"
+                android:textSize="10pt">
+
+                <TableRow android:weightSum="14">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="10"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_target" />
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_admissions" />
+
+
+                </TableRow>
+
+                <TableRow android:weightSum="14">
+
+                    <TableLayout android:layout_weight="10">
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/jongmyo_2564" />
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/jongmyo_19" />
+                    </TableLayout>
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4"
+                        android:width="0px"
+                        android:height="90dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_1000" />
+                </TableRow>
+
+                <TableRow android:weightSum="14">
+
+                    <TableLayout android:layout_weight="10">
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/jongmyo_2465" />
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="@color/tablecolor"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/jongmyo_6" />
+                    </TableLayout>
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4"
+                        android:width="0px"
+                        android:height="90dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_free" />
+                </TableRow>
+
+                <TableRow android:weightSum="14">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="10"
+                        android:width="0px"
+                        android:height="90dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_718" />
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="@color/tablecolor"
+                        android:layout_weight="4"
+                        android:width="0px"
+                        android:height="90dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/jongmyo_500" />
+                </TableRow>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="14"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/celltitle"
+                    android:gravity="center"
+                    android:text="@string/gyeong_bigo" />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="14"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_top"
+                    android:gravity="center"
+                    android:text="@string/jongmyo_bigo1" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="14"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="@string/jongmyo_bigo2" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="14"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="@string/jongmyo_bigo3" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="14"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_btm"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="@string/jongmyo_bigo4" />
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

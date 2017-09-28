@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:paddingLeft="17dp"
+        android:text="@string/tour_adm"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor"/>
+    <!--관람요금 안내-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor">
+
+        <!--타이틀-->
+        <TableRow android:weightSum="14">
+
+            <TableLayout android:layout_weight="5.5">
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_top"
+                    android:gravity="bottom"
+                    android:textAlignment="center"
+                    android:text="@string/nampark_adult" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_btm"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_2564" />
+            </TableLayout>
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/tablecolor"
+                android:layout_weight="8.5"
+                android:width="0px"
+                android:height="45dp"
+                android:background="@drawable/cellbg"
+                android:gravity="center"
+                android:text="3,000원" />
+
+        </TableRow>
+
+        <!--타이틀-->
+        <TableRow android:weightSum="14">
+
+            <TableLayout android:layout_weight="5.5">
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_center"
+                    android:gravity="bottom"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_youth" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_center"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_24" />
+            </TableLayout>
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/tablecolor"
+                android:layout_weight="8.5"
+                android:width="0px"
+                android:height="45dp"
+                android:background="@drawable/cellbg"
+                android:gravity="center"
+                android:text="@string/changdeok_youthFare" />
+
+        </TableRow>
+
+        <!--타이틀-->
+        <TableRow android:weightSum="14">
+
+            <TableLayout android:layout_weight="5.5">
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_top"
+                    android:gravity="bottom"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_group" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/celltitle_btm"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_group10" />
+            </TableLayout>
+
+            <TableLayout android:layout_weight="8.5">
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/cellbg_top"
+                    android:gravity="bottom"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_group1" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:width="0px"
+                    android:height="22.5dp"
+                    android:background="@drawable/cellbg_btm"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:text="@string/changdeok_group2" />
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow android:weightSum="14">
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/tablecolor"
+                android:layout_weight="5.5"
+                android:width="0px"
+                android:height="170dp"
+                android:background="@drawable/celltitle_btm"
+                android:gravity="center"
+                android:text="@string/changdeok_free" />
+            <TableLayout
+                android:layout_weight="8.5">
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="5"
+                    android:width="0px"
+                    android:height="40dp"
+                    android:background="@drawable/cellbg_top"
+                    android:gravity="bottom"
+                    android:paddingLeft="20dp"
+                    android:text="@string/changdeok_bigo1" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="5"
+                    android:width="0px"
+                    android:height="40dp"
+                    android:background="@drawable/cellbg_center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="@string/changdeok_bigo2" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="5"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="@string/changdeok_bigo3" />
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/tablecolor"
+                    android:layout_weight="5"
+                    android:width="0px"
+                    android:height="45dp"
+                    android:background="@drawable/cellbg_btm"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="@string/changdeok_bigo4" />
+            </TableLayout>
+
+
+            </TableRow>
+    </TableLayout>
+</LinearLayout>

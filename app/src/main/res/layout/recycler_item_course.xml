@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_marginBottom="2dp"
+    android:gravity="bottom|right"
+    android:orientation="horizontal"
+    android:paddingBottom="13dp"
+    android:paddingTop="4dp"
+    android:background="@drawable/data_course_dong_dae"
+    android:id="@+id/layout_course"
+    >
+
+
+    <TextView
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseEngText"
+        android:textSize="17sp"
+        android:text="courseEngText"/>
+    <TextView
+        android:paddingRight="25dp"
+        android:id="@+id/courseTitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/maincolor"
+        android:textStyle="bold"
+        android:text="코스 이름"
+        />
+</LinearLayout>

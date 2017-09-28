@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_back"
+        layout="@layout/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <ListView
+        android:id="@+id/stationlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include_back"
+        android:background="@drawable/data_item_bg"
+        android:choiceMode="singleChoice"
+        android:divider="#20D1D1D1"
+        android:dividerHeight="0.9dp" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#fff3f3f3</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#202730</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <!--<item name="colorAccent">#ccdf5539</item>-->
+        <item name="colorAccent">#6B82A1</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <!--<item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <item name="tabIndicatorColor">@color/orangered_sub</item>
+        <item name="tabIndicatorHeight">3.5dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/orangered</item>
+    </style>
+
+    <!-- for text -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grey_accent2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!--<style name="stationlistbtn_style">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--&lt;!&ndash;<item name="android:layout_margin">@dimen/spacing_large</item>&ndash;&gt;-->
+        <!--<item name="borderWidth">0dp</item>-->
+        <!--<item name="elevation">6dp</item>-->
+        <!--<item name="pressedTranslationZ">12dp</item>-->
+        <!--<item name="android:background">@color/grey_accent1</item>-->
+        <!--<item name="rippleColor">@android:color/white</item>-->
+    <!--</style>-->
+
+    <!--<style name="spotmark_style">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--&lt;!&ndash;<item name="android:layout_margin">@dimen/spacing_large</item>&ndash;&gt;-->
+        <!--<item name="android:text">@string/spot</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="borderWidth">0dp</item>-->
+        <!--<item name="elevation">6dp</item>-->
+        <!--<item name="pressedTranslationZ">12dp</item>-->
+        <!--<item name="android:background">@color/grey_accent1</item>-->
+        <!--<item name="rippleColor">@android:color/white</item>-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:paddingLeft="17dp"
+        android:text="@string/tour_adm"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/maincolor"/>
+    <!--주요시설 표-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="16sp">
+        <!--1열(시설명)-->
+            <TextView
+                android:width="0px"
+                android:height="45dp"
+                android:background="@drawable/cellbg"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/tablecolor"
+                android:text="@string/namsangol_free" />
+</TableLayout>
+</LinearLayout>

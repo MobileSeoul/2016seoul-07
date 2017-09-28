@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:fillViewport="false"
+        android:visibility="visible">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:paddingLeft="17dp"
+                android:text="@string/tour_adm"
+                android:textColor="@color/maincolor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!--케이블카-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="50dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="10pt">
+
+                <!--1열(시설명)-->
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/nampark_facility"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="9"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/celltitle"
+                        android:gravity="center"
+                        android:text="@string/nampark_cablecar"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_type"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_weight="4.5"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_oneway"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_weight="4.5"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/nampark_roundtrip"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <!--2열(이용요금)-->
+                <TableRow android:weightSum="15">
+
+                    <TableLayout android:layout_weight="3.5">
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_weight="3.5"
+                            android:width="0px"
+                            android:height="90dp"
+                            android:background="@drawable/cellbg_top"
+                            android:gravity="bottom|center_horizontal"
+                            android:text="@string/nampark_rates"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_weight="3.5"
+                            android:width="0px"
+                            android:height="90dp"
+                            android:background="@drawable/cellbg_btm"
+                            android:gravity="top|center_horizontal"
+                            android:text="@string/nampark_indi_group"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+                    </TableLayout>
+
+                    <TableLayout android:layout_weight="2.5">
+
+                        <TextView
+                            android:layout_weight="2.5"
+                            android:width="0px"
+                            android:height="90dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_adult"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_weight="2.5"
+                            android:width="0px"
+                            android:height="90dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_child"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                    </TableLayout>
+
+                    <TableLayout android:layout_weight="4.5">
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_6000"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_5000"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_8500"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_7000"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+                    </TableLayout>
+
+                    <TableLayout android:layout_weight="4.5">
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_3500"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_3000"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_5500"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_4500"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+                    </TableLayout>
+                </TableRow>
+
+
+                <!--비고-->
+                <TableRow android:weightSum="15">
+
+                    <TextView
+                        android:layout_weight="6"
+                        android:width="0px"
+                        android:height="45dp"
+                        android:background="@drawable/cellbg"
+                        android:gravity="center"
+                        android:text="@string/gyeong_bigo"
+                        android:textColor="@color/tablecolor"
+                        android:textSize="16sp" />
+
+                    <TableLayout android:layout_weight="9">
+
+                        <TextView
+                            android:layout_weight="9"
+                            android:width="0px"
+                            android:height="45dp"
+                            android:background="@drawable/cellbg"
+                            android:gravity="center"
+                            android:text="@string/nampark_bigo"
+                            android:textColor="@color/tablecolor"
+                            android:textSize="16sp" />
+
+                    </TableLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
